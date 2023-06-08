@@ -17,5 +17,5 @@ document.querySelector("#editButton").addEventListener("click", function() {
   
 	setTimeout(() => {
 	  	this.classList.remove("clicked");
-	}, 2000); // 2000 milliseconds (2 seconds)
+	}, 2000); // 2 seconds
 });

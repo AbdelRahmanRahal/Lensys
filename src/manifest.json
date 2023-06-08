@@ -21,13 +21,6 @@
 			"js": ["content.js"]
 		}
 	],
-	"web_accessible_resources": [
-		{
-			"resources": ["highlight/highlight.pack.js", "highlight/style/github-dark.min.css"],
-			"matches": [],
-			"extension_ids": []
-		  }
-	  ],
 	"icons": {
 		"16": "icons/icon16.png",
 		"48": "icons/icon48.png",
