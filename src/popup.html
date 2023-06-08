@@ -3,7 +3,101 @@
 	<head>
 	</head>
 	<body>
-		<button type="button" id="editButton">Add Syntax Highlight</button>
+		<style type="text/css">
+			body {
+				background-color: #2e2e37;
+				margin: 0.4em !important;
+			}
+
+
+			#editButton {
+				/* ----- Colours ----- */
+				color: #c9d1d9;
+				background: none;
+				background-color: #0d1117;
+		
+				/* ----- Typography ----- */
+				font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+				font-size: 0.8rem;
+		
+				/* ----- Layout ----- */
+				width: 15em;
+				height: 2em;
+				margin: 0;
+		
+				/* ----- Others ----- */
+				border: none;
+				outline: none;
+				box-shadow: none;
+				background-clip: padding-box;
+				cursor: pointer;
+				position: relative;
+				overflow: hidden;
+			}
+
+
+			#editButton:hover {
+			  background-color: #2e2e37;
+			}
+
+
+			.button_text {
+			  display: inline-block;
+			  position: relative;
+			}
+
+
+			.button_check {
+				/* ----- Colour & Typography ----- */
+				color: #1db4ff;
+				font-weight: bold;
+		
+				/* ----- Layout ----- */
+				position: absolute;
+				top: 50%;
+				left: 50%;
+		
+				/* ----- Animation ----- */
+				transform: translate(-50%, -50%) scale(0);
+				transition: transform 0.2s;
+			}
+
+
+			#editButton.clicked .button_text {
+			  animation: textDisappear 0.2s forwards;
+			}
+
+
+			#editButton.clicked .button_check {
+				animation: iconAppear 0.25s forwards;
+			}
+
+
+			@keyframes textDisappear {
+				0% {
+					clip-path: inset(0% 0% 0% 0%);
+				}
+				100% {
+					clip-path: inset(0% 50% 0% 50%);
+				}
+			}
+
+
+			@keyframes iconAppear {
+				0% {
+					transform: translate(-50%, -50%) scale(0);
+				}
+				100% {
+					transform: translate(-50%, -50%) scale(1);
+				}
+			}
+		</style>
+		<button type="button" id="editButton">
+			<span class="button_text">
+				<span style="color: #f5862b;">syntaxHighlight</span>(<span style="color: #1db4ff;">my_code</span>);
+			</span>
+			<span class="button_check">&#10003;</span>
+		</button>
 		<script src="popup.js"></script>
 	</body>
 </html>

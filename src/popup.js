@@ -10,3 +10,12 @@ document.addEventListener('DOMContentLoaded', function () {
 		console.error('editButton not found');
 	}
 });
+
+
+document.querySelector("#editButton").addEventListener("click", function() {
+	this.classList.add("clicked");
+  
+	setTimeout(() => {
+	  	this.classList.remove("clicked");
+	}, 2000); // 2000 milliseconds (2 seconds)
+});
