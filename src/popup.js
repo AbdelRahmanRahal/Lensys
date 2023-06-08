@@ -13,9 +13,16 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 document.querySelector("#editButton").addEventListener("click", function() {
-	this.classList.add("clicked");
-
-	setTimeout(() => {
-		this.classList.remove("clicked");
-	}, 2000); // 2 seconds
+	if (!this.classList.contains("clicked")) {
+		this.classList.add("clicked");
+		this.classList.remove("clickedReverse");
+		
+		setTimeout(() => {
+			this.classList.remove("clicked");
+			this.classList.add("clickedReverse");
+		}, 2000); // 2 seconds
+	} else {
+		this.classList.remove("clickedReverse");
+		this.classList.add("clicked");
+	}
 });

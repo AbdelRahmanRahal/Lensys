@@ -64,22 +64,22 @@
 			}
 
 
-			#editButton.clicked .button_text {
-				animation: textDisappear 0.2s forwards;
-			}
-
-
-			#editButton.clicked .button_check {
-				animation: iconAppear 0.25s forwards;
-			}
-
-
 			@keyframes textDisappear {
 				0% {
 					clip-path: inset(0% 0% 0% 0%);
 				}
 				100% {
 					clip-path: inset(0% 50% 0% 50%);
+				}
+			}
+
+
+			@keyframes textDisappearReverse {
+				0% {
+					clip-path: inset(0% 50% 0% 50%);
+				}
+				100% {
+					clip-path: inset(0% 0% 0% 0%);
 				}
 			}
 
@@ -92,6 +92,36 @@
 					transform: translate(-50%, -50%) scale(1);
 				}
 			}
+
+
+			@keyframes iconAppearReverse {
+				0% {
+					transform: translate(-50%, -50%) scale(1);
+				}
+				100% {
+					transform: translate(-50%, -50%) scale(0);
+				}
+			}
+
+
+			#editButton.clicked .button_text {
+				animation: textDisappear 0.2s forwards;
+			}
+
+
+			#editButton.clickedReverse .button_text {
+				animation: textDisappearReverse 0.2s forwards;
+			}
+
+
+			#editButton.clicked .button_check {
+				animation: iconAppear 0.25s forwards;
+			}
+
+
+			#editButton.clickedReverse .button_check {
+				animation: iconAppearReverse 0.12s forwards;
+			}
 		</style>
 		<button type="button" id="editButton">
 			<span class="button_text">
@@ -101,4 +131,4 @@
 		</button>
 		<script src="popup.js"></script>
 	</body>
-</html>
+	</html>
