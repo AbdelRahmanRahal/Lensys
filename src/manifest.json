@@ -18,7 +18,8 @@
 	"content_scripts": [
 		{
 			"matches": ["<all_urls>"],
-			"js": ["content.js"]
+			"js": ["content.js", "highlight/highlight.min.js"],
+			"css": ["highlight/styles/github-dark.min.css"]
 		}
 	],
 	"icons": {
