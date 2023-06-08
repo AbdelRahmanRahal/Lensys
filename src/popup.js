@@ -14,8 +14,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
 document.querySelector("#editButton").addEventListener("click", function() {
 	this.classList.add("clicked");
-  
+
 	setTimeout(() => {
-	  	this.classList.remove("clicked");
+		this.classList.remove("clicked");
 	}, 2000); // 2 seconds
 });

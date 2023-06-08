@@ -1,7 +1,7 @@
 {
 	"manifest_version": 3,
-	"name": "Moodle Syntax Highlight",
-	"description": "Syntax highlight for Moodle because the university or whatever are too lazy to do it themselves.",
+	"name": "Lensys",
+	"description": "Lensys is a Google Chrome extension that converts selected text into code blocks with syntax highlight.",
 	"version": "1.0",
 	"action": {
 		"default_icon": {
