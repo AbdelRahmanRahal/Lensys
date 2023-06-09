@@ -42,13 +42,13 @@
 			}
 
 
-			.button_text {
+			.button-text {
 				display: inline-block;
 				position: relative;
 			}
 
 
-			.button_check {
+			.button-check {
 				/* ----- Colour & Typography ----- */
 				color: #1db4ff;
 				font-weight: bold;
@@ -104,30 +104,30 @@
 			}
 
 
-			#editButton.clicked .button_text {
+			#editButton.clicked .button-text {
 				animation: textDisappear 0.2s forwards;
 			}
 
 
-			#editButton.clickedReverse .button_text {
+			#editButton.clickedReverse .button-text {
 				animation: textDisappearReverse 0.2s forwards;
 			}
 
 
-			#editButton.clicked .button_check {
+			#editButton.clicked .button-check {
 				animation: iconAppear 0.25s forwards;
 			}
 
 
-			#editButton.clickedReverse .button_check {
+			#editButton.clickedReverse .button-check {
 				animation: iconAppearReverse 0.12s forwards;
 			}
 		</style>
 		<button type="button" id="editButton">
-			<span class="button_text">
+			<span class="button-text">
 				Lensys.<span style="color: #f53c55;">syntaxHighlight</span>(<span style="color: #1db4ff;">my_code</span>);
 			</span>
-			<span class="button_check">&#10003;</span>
+			<span class="button-check">&#10003;</span>
 		</button>
 		<script src="popup.js"></script>
 	</body>
