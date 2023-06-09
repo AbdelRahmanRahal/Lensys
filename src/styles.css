@@ -1,0 +1,27 @@
+.lensys-wrapper code {
+	border-radius: 0.8rem 0.8rem 0 0;
+}
+
+.lensys-copy-button-wrapper {
+	width: 100%;
+	display: block;
+	background-color: #0d1117;
+	border-radius: 0 0 0.8rem 0.8rem;
+}
+
+.lensys-copy-button {
+	border-radius: 0.8rem;
+	display: inline;
+	background: none;
+	color: #ffffff;
+	border: none;
+	padding: 5px 10px;
+	font-size: 0.8rem;
+	margin-left: 5px;
+}
+
+
+.lensys-copy-button:hover {
+	background-color: #2e2e37;
+	cursor: pointer;
+}

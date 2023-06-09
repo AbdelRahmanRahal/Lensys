@@ -19,7 +19,7 @@
 		{
 			"matches": ["<all_urls>"],
 			"js": ["content.js", "highlight/highlight.min.js"],
-			"css": ["highlight/styles/github-dark.min.css"]
+			"css": ["highlight/styles/github-dark.min.css", "popup.css", "styles.css"]
 		}
 	],
 	"icons": {
