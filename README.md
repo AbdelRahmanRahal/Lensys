@@ -6,8 +6,9 @@ Currently, this extension is not available on the Chrome store. So follow these 
 1. Clone or download this repository.
 2. Open up Google Chrome and click on the extensions icon.
 3. Click on `Manage extensions`.
-4. On the top left corner, click on `Load unpacked`.
-5. Navigate to where you downloaded Lensys and click on the folder named `src` and click `open folder`.
+4. On the top right corner, activate `Developer mode` if it's not already activated.
+5. On the top left corner, click on `Load unpacked`.
+6. Navigate to where you downloaded Lensys and click on the folder named `src` and click `open folder`.
 
 Done. Now, you should be ready to use Lensys.
 
