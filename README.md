@@ -18,4 +18,6 @@ Done. Now, you should be ready to use Lensys.
 2. Click on the Lensys icon.
 3. Click on the `Lensys.syntaxHighlight(my_code);` button.
 
+![Demo gif to demonstrate how to use Lensys](https://github.com/AbdelRahmanRahal/Lensys/blob/main/demo.gif?raw=true)
+
 Done. The code should now be formatted into a beautiful code block with syntax highlighting for the lanugage used.
