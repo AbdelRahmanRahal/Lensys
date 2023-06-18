@@ -2,7 +2,7 @@
 	"manifest_version": 3,
 	"name": "Lensys",
 	"description": "Lensys is a Google Chrome extension that converts selected text into code blocks with syntax highlight.",
-	"version": "1.0",
+	"version": "1.0.0",
 	"action": {
 		"default_icon": {
 			"16": "icons/icon16.png",
