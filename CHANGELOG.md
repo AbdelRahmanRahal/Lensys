@@ -6,4 +6,4 @@
 
 - Lensys
 
-[1.0.0]: <LINK FOR RELEASE GOES HERE>
+[1.0.0]: https://github.com/AbdelRahmanRahal/Lensys/releases/tag/v1.0.0
