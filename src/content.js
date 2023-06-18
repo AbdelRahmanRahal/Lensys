@@ -20,6 +20,7 @@ function editHighlightedText() {
 		
 		// Applying syntax highlighting to the selected text
 		const codeElement = document.createElement('code');
+		codeElement.classList.add('lensys-code');
 		codeElement.textContent = selectedText;
 		hljs.highlightElement(codeElement);
 		

@@ -1,4 +1,14 @@
-pre code.hljs{display:block;overflow-x:auto;padding:1em}code.hljs{padding:3px 5px}/*!
+pre code.hljs.lensys-code {
+  display: block !important;
+  overflow-x: auto !important;
+  padding: 1em !important;
+}
+
+code.hljs.lensys-code {
+  padding: 3px 5px !important;
+}
+
+/*!
   Theme: GitHub Dark
   Description: Dark theme as seen on github.com
   Author: github.com
@@ -7,4 +17,83 @@ pre code.hljs{display:block;overflow-x:auto;padding:1em}code.hljs{padding:3px 5p
 
   Outdated base version: https://github.com/primer/github-syntax-dark
   Current colors taken from GitHub's CSS
-*/.hljs{color:#c9d1d9;background:#0d1117}.hljs-doctag,.hljs-keyword,.hljs-meta .hljs-keyword,.hljs-template-tag,.hljs-template-variable,.hljs-type,.hljs-variable.language_{color:#ff7b72}.hljs-title,.hljs-title.class_,.hljs-title.class_.inherited__,.hljs-title.function_{color:#d2a8ff}.hljs-attr,.hljs-attribute,.hljs-literal,.hljs-meta,.hljs-number,.hljs-operator,.hljs-selector-attr,.hljs-selector-class,.hljs-selector-id,.hljs-variable{color:#79c0ff}.hljs-meta .hljs-string,.hljs-regexp,.hljs-string{color:#a5d6ff}.hljs-built_in,.hljs-symbol{color:#ffa657}.hljs-code,.hljs-comment,.hljs-formula{color:#8b949e}.hljs-name,.hljs-quote,.hljs-selector-pseudo,.hljs-selector-tag{color:#7ee787}.hljs-subst{color:#c9d1d9}.hljs-section{color:#1f6feb;font-weight:700}.hljs-bullet{color:#f2cc60}.hljs-emphasis{color:#c9d1d9;font-style:italic}.hljs-strong{color:#c9d1d9;font-weight:700}.hljs-addition{color:#aff5b4;background-color:#033a16}.hljs-deletion{color:#ffdcd7;background-color:#67060c}
+*/
+
+.hljs.lensys-code {
+  color: #c9d1d9 !important;
+  background: #0d1117 !important;
+}
+
+.hljs.lensys-code .hljs-doctag,
+.hljs.lensys-code .hljs-keyword,
+.hljs.lensys-code .hljs-meta .hljs-keyword,
+.hljs.lensys-code .hljs-template-tag,
+.hljs.lensys-code .hljs-template-variable,
+.hljs.lensys-code .hljs-type,
+.hljs.lensys-code .hljs-variable.language_ {
+  color: #ff7b72 !important;
+}
+.hljs.lensys-code .hljs-title,
+.hljs.lensys-code .hljs-title.class_,
+.hljs.lensys-code .hljs-title.class_.inherited__,
+.hljs.lensys-code .hljs-title.function_ {
+  color: #d2a8ff !important;
+}
+.hljs.lensys-code .hljs-attr,
+.hljs.lensys-code .hljs-attribute,
+.hljs.lensys-code .hljs-literal,
+.hljs.lensys-code .hljs-meta,
+.hljs.lensys-code .hljs-number,
+.hljs.lensys-code .hljs-operator,
+.hljs.lensys-code .hljs-selector-attr,
+.hljs.lensys-code .hljs-selector-class,
+.hljs.lensys-code .hljs-selector-id,
+.hljs.lensys-code .hljs-variable {
+  color: #79c0ff !important;
+}
+.hljs.lensys-code .hljs-meta .hljs-string,
+.hljs.lensys-code .hljs-regexp,
+.hljs.lensys-code .hljs-string {
+  color: #a5d6ff !important;
+}
+.hljs.lensys-code .hljs-built_in,
+.hljs.lensys-code .hljs-symbol {
+  color: #ffa657 !important;
+}
+.hljs.lensys-code .hljs-code,
+.hljs.lensys-code .hljs-comment,
+.hljs.lensys-code .hljs-formula {
+  color: #8b949e !important;
+}
+.hljs.lensys-code .hljs-name,
+.hljs.lensys-code .hljs-quote,
+.hljs.lensys-code .hljs-selector-pseudo,
+.hljs.lensys-code .hljs-selector-tag {
+  color: #7ee787 !important;
+}
+.hljs.lensys-code .hljs-subst {
+  color: #c9d1d9 !important;
+}
+.hljs.lensys-code .hljs-section {
+  color: #1f6feb !important;
+  font-weight: 700 !important;
+}
+.hljs.lensys-code .hljs-bullet {
+  color: #f2cc60 !important;
+}
+.hljs.lensys-code .hljs-emphasis {
+  color: #c9d1d9 !important;
+  font-style: italic !important;
+}
+.hljs.lensys-code .hljs-strong {
+  color: #c9d1d9 !important;
+  font-weight: 700 !important;
+}
+.hljs.lensys-code .hljs-addition {
+  color: #aff5b4 !important;
+  background-color: #033a16 !important;
+}
+.hljs.lensys-code .hljs-deletion {
+  color: #ffdcd7 !important;
+  background-color: #67060c !important;
+}
