@@ -15,7 +15,7 @@ Thank you to these amazing people/projects for helping make this extension possi
         <br /><sub><b>Alexander Berejnov</b></sub>
       </a>
     </td>
-    <td align="center" style="min-width: 75px">
+    <td align="center" style="min-width: 75px;">
       <a href="https://github.com/highlightjs/highlight.js">
         <img src="https://avatars.githubusercontent.com/u/9039821?s=200&v=4" width="50px" alt="Highlight.js"/>
         <br /><sub><b>Highlight.js</b></sub>
